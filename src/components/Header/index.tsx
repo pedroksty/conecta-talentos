@@ -21,7 +21,7 @@ export function Header() {
       maxWidth={1480}
       h="20"
       mt="4"
-      px="6"
+      px="10"
       mx="auto"
       align="center"
       justify="space-between"
@@ -33,7 +33,7 @@ export function Header() {
         align="center"
       >
         <Avatar size="xl" bg="transparent" src="/images/logo.svg" mr="8" />
-        {isWideVersion && <Text textAlign="center" fontSize="4xl" lineHeight="1" letterSpacing="tight" >Conecta <br /> <Text lineHeight="1" fontWeight="semibold">TALENTOS</Text> </Text>}
+        {isWideVersion && <Text textAlign="center" fontSize="4xl" lineHeight="1" letterSpacing="tight" >Conecta <br /> <strong>TALENTOS</strong> </Text>}
       </Flex>
 
       {!user && (<Flex

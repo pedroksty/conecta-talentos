@@ -27,7 +27,7 @@ export default function Home() {
         my="6"
         maxWidth={1480}
         mx="auto"
-        px="6"
+        px="8"
         alig="center"
         justify="center"
       >
@@ -38,7 +38,7 @@ export default function Home() {
           direction="column"
           spacing="4"
           align={['center', 'center', 'initial']}
-          px="6"
+          px="8"
           justify="center"
         >
 

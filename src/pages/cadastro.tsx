@@ -122,7 +122,7 @@ export default function Cadastro() {
           align="center"
           justify="center"
         >
-          <Image src="/images/logo-text.svg" w={['60', '70', '80']} />
+          <Image src="/images/logo.png" w={['60', '70', '80']} />
 
           <VStack
             as="form"
@@ -175,10 +175,6 @@ export default function Cadastro() {
             >
               Entrar
            </Button>
-
-           {/* <Link href="#" passHref >
-            <ChakraLink color="green.700">Esqueci minha senha</ChakraLink>
-           </Link> */}
 
           </VStack>
 
